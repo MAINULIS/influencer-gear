@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #AAAAAA;
+
+}
+
+.container {
+    background: #FFFFFF;
+    /* width: 1440px;
+    height: 3306px; */
+
+
+
+}
+
+/*-------------
+ header and nav styles
+ -------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-nav {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.second-nav {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* -------------
+Caption section 
+---------------------*/
+.caption {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+.caption-main{
+    width: 582px;
+height: 270px;
+padding-left: 120px;
+padding-top: 285px;
+
+}
+.caption-heading{
+    font-weight: 700;
+font-size: 52px;
+width: 582px;
+height: 133px;
+}
+.caption-para{
+    font-weight: 600;
+font-size: 16px;
+}
+.order{
+    font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+background-color: purple;
+width: 196px;
+height: 44px;
+text-align: center;
+
+}
+
+.camera {
+    width: 440px;
+    height: 414px;
+    padding-top: 211px;
+   
+}
